@@ -1,0 +1,76 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+   }
+   .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+} 
+.login{
+	float:left;
+}
+table.default td {
+    padding: .2em .8em;
+    border: 1px solid rgba(16,76,167,.25);
+    background: rgba(90,156,255,.25);
+    text-align: left;
+}
+caption {
+    display: table-caption;
+    text-align: -webkit-center;
+}
+.carousel{
+	padding-bottom: .5em;
+}
+.texto{
+	float: left;
+}
+ul, ol {
+    font-size: 12px;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.texto{
+	padding: 4px 0;
+	position: relative;
+	   width: 100%;
+    max-width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+	padding: .2em .8em;
+}
+
+.col-4{
+	text-align : webkit-center
+}
+#clasificacion{
+	border: 1px solid rgba(16,76,167,.25);
+}
+#gat{
+	border: 1px solid rgba(16,76,167,.25);
+}
+#bal{
+	border: 1px solid rgba(16,76,167,.25);
+}
+
+#foto_BAAL{
+	width : 20em;
+}
+
+#foto_GRAT{
+	width: 20em;
+}

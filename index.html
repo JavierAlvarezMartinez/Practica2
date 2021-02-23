@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>	
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="STYLE.css">
+ </head>
+<body>
+<div class="container_general">
+		<div class="container">
+	  <header class="blog-header py-3">
+	    <div class="row flex-nowrap justify-content-between align-items-center">
+	      <div class="col-4 pt-1">
+	        <a class="link-secondary" href="#"></a>
+	      </div>
+	      <div class="col-4 text-center">
+	       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Marca.svg/1200px-Marca.svg.png" width="200" height="100">
+	      </div>
+	      <div class="col-4 d-flex justify-content-end align-items-center">
+	      </div>
+	    </div>
+	  </header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	  <div class="container-fluid" >
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#TOP">Inicio</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="https://www.marca.com/futbol.html?intcmp=MENUPROD&s_kw=futbol">Futbol</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link active" aria-current="page" href="https://www.marca.com/baloncesto.html?intcmp=MENUPROD&s_kw=baloncesto">Baloncesto</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link active" aria-current="page" href="nba.html">Buscador equipos NBA</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="https://www.marca.com/polideportivo.html?intcmp=MENUPROD&s_kw=polideportivo">Polideportivo</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex">
+	        <input class="form-control me-2" type="search-form" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit">Search</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+	<form action="ejemplo.php" method="get">
+  		<p>User: <input type="text" name="nombre" size="40"></p>
+  		<p>Password: <input type="text" name="nacido" min="1900"></p>
+  		<p>
+    		<button class="btn btn-outline-success" type="submit">Submit</button>
+    		<button class="btn btn-outline-success" type="reset" >Delete</button>
+  		</p>
+	</form>
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active" data-bs-interval="2000">
+	      <img src="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/55365e3c066de9087b6a5b4b/futbol7.jpg" class="d-block w-100" height="300" width="200">
+	      <div class="carousel-caption d-none d-md-block">
+	        <p></p>
+	      </div>
+	    </div>
+	    <div class="carousel-item" data-bs-interval="2000">
+	      <img src="https://concepto.de/wp-content/uploads/2014/10/baloncesto-1-e1551134233923.jpg" class="d-block w-100" height="300" width="200">
+	      <div class="carousel-caption d-none d-md-block">
+	        <p></p>
+	      </div>
+	    </div>
+	    <div class="carousel-item" data-bs-interval="2000">
+	      <img src="https://trucoslondres.com/wp-content/uploads/2017/04/sports.jpg" class="d-block w-100" alt="..."height="300" width="200">
+	      <div class="carousel-caption d-none d-md-block">
+	        <p></p>
+	      </div>
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+	<div class="row">
+		<div class="col-3" id="primer_articulo">
+		<div class="card" style="width: 15rem;">
+  		<img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/15/16133942828045.jpg" class="card-img-top">
+  		<div class="card-body">
+    	<b><h5 class="card-title">BALONCESTO</h5></b>
+    	<p class="card-text"> Dudas y un futuro de revolución: así pinta el horizonte del Madrid</p>
+    	<a href="https://www.marca.com/baloncesto/copa-rey/2021/02/15/602a702b268e3ece5e8b45a0.html" class="btn btn-primary">Ver artículo</a>
+  		</div>
+  		</div>
+		</div>
+		<div class="col-3" id="segundo_articulo">
+		<div class="card" style="width: 15rem;">
+  		<img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/15/16134037171597.jpg" class="card-img-top">
+  		<div class="card-body">
+    	<b><h5 class="card-title">ATLETISMO</h5></b>
+    	<p class="card-text"> Douae Ouboukir, la Bikila del siglo XXI que corre descalza en el cross</p>
+    	<a href="https://www.marca.com/atletismo/2021/02/15/602a83b422601dae528b45df.html" class="btn btn-primary">Ver artículo</a>
+  		</div>
+  		</div>
+		</div>
+		<div class="col-3" id="segundo_articulo">
+		<div class="card" style="width: 15rem;">
+  		<img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/15/16133984311522.jpg" class="card-img-top">
+  		<div class="card-body">
+    	<b><h5 class="card-title">NATACION</h5></b>
+    	<p class="card-text">Paco García,95 años el hombre que salió a nadar y batió 3 records"</p>
+    	<a href="https://www.marca.com/natacion/2021/02/15/602a7fbc268e3e867a8b458d.html" class="btn btn-primary">Ver artículo</a>
+  		</div>
+  		</div>
+		</div>
+		<div class="col-3" id="segundo_articulo">
+		<div class="card" style="width: 15rem;">
+  		<img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/15/16133471671861.jpg" class="card-img-top">
+  		<div class="card-body">
+    	<b><h5 class="card-title">FUTBOL INTERNACIONAL</h5></b>
+    	<p class="card-text">  Panathinaikos vuelve a ganar a Olympiacos en el Clásico</p>
+    	<a href="https://www.marca.com/futbol/futbol-internacional/2021/02/14/602985b522601d97448b45c7.html" class="btn btn-primary">Ver artículo</a>
+  		</div>
+  		</div>
+		</div>
+	</div>	
+	<div class="row" >
+		<div class="col-4" id="clasificacion">
+			<b><p>CLASIFICACION A DIA 13 DE FEBRERO</p></b>
+			<p style="font-family: times new roman">El equipo colchonero sigue encabezando la clasificacion con una importante distancia sobre sus perseguidores.</p>
+			<a href="#clasificacion">Ir a la clasificacion</a>
+		</div>
+		<div class="col-4" id="gat">
+			<b><p>CRONICA GRANADA-ATLETICO DE MADRID</p></b>
+			<img src="http://fulbox.com/wp-content/uploads/2016/10/Atl%C3%A9tico-de-Madrid-vs-Granada-Hora-Canal-D%C3%B3nde-ver-Jornada-8-Liga-Espa%C3%B1ola-2016-17.jpg" id= "foto_GRAT">
+			<p style="font-family: times new roman">Los de Simeone se llevan la victoria tras un apretado partido donde los locales consiguieron llegar a empatar el partido pero dos goles del atletico, uno de Llorente y otro de Correa en los instantes finales del partido</p>
+		</div>
+		<div class="col-4" id="bal">
+			<b><p>CRONICA FC BARCELONA-ALAVES</p></b>
+			<img src="https://www.fcbarcelonanoticias.com/uploads/s1/12/43/50/5/cronica-barcelona-alaves.jpeg"  id="foto_BAAL">
+			<p style ="font-family: times new roman">El Barcelona se lleva un partido con una clara victoria por 5-1 frente al Alaves. Los de Koeman manejaron el partido de principio a fin y los jovenes tiraron del carro en esta nueva victoria. Puede que estemos en el comienzo de el nuevo BABY BARSA</p>
+		</div>
+	</div>
+	<div class="clasificacion" id="clasificacion">
+		<table class="table">
+		  <thead>
+		    <tr>
+		      <th scope="col">EQUIPO</th>
+		      <th scope="col">PARTIDOS JUGADOS</th>
+		      <th scope="col">PARTIDOS GANADOS</th>
+		      <th scope="col">PARTIDOS EMPATADOS</th>
+		      <th scope="col">PARTIDOS PERDIDOS</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">ATM</th>
+		      <td>21</td>
+		      <td>17</td>
+		      <td>3</td>
+		      <td>1</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">FCB</th>
+		      <td>22</td>
+		      <td>14</td>
+		      <td>4</td>
+		      <td>4</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">RMA</th>
+		      <td>22</td>
+		      <td>14</td>
+		      <td>4</td>
+		      <td>4</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">SCF</th>
+		      <td>22</td>
+		      <td>14</td>
+		      <td>3</td>
+		      <td>5</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">VIL</th>
+		      <td>22</td>
+		      <td>8</td>
+		      <td>12</td>
+		      <td>2</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">RSO</th>
+		      <td>22</td>
+		      <td>9</td>
+		      <td>8</td>
+		      <td>5</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">RBB</th>
+		      <td>22</td>
+		      <td>9</td>
+		      <td>3</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">GCF</th>
+		      <td>23</td>
+		      <td>8</td>
+		      <td>6</td>
+		      <td>9</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">RCV</th>
+		      <td>23</td>
+		      <td>7</td>
+		      <td>8</td>
+		      <td>8</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">LEV</th>
+		      <td>21</td>
+		      <td>6</td>
+		      <td>9</td>
+		      <td>6</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">ATH</th>
+		      <td>21</td>
+		      <td>7</td>
+		      <td>4</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">VAL</th>
+		      <td>22</td>
+		      <td>5</td>
+		      <td>9</td>
+		      <td>8</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">GTF</th>
+		      <td>22</td>
+		      <td>6</td>
+		      <td>6</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">CAD</th>
+		      <td>22</td>
+		      <td>6</td>
+		      <td>6</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">OSA</th>
+		      <td>22</td>
+		      <td>5</td>
+		      <td>7</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">ALA</th>
+		      <td>23</td>
+		      <td>5</td>
+		      <td>7</td>
+		      <td>11</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">EIB</th>
+		      <td>23</td>
+		      <td>4</td>
+		      <td>9</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">RVC</th>
+		      <td>23</td>
+		      <td>4</td>
+		      <td>9</td>
+		      <td>10</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">ELC</th>
+		      <td>21</td>
+		      <td>3</td>
+		      <td>9</td>
+		      <td>9</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">SDH</th>
+		      <td>23</td>
+		      <td>2</td>
+		      <td>10</td>
+		      <td>11</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+</div>
+	<footer class="text-muted py-4">
+		<div class="container">
+			<p class="float-end mb-1">
+				<a href="#TOP">Back to top</a>
+			</p>
+			<p class="mb-1">REDACCION DE MARCA</p>
+			<p class="mb-1">Javier Álvarez Martínez 3A GITT</p>
+		</div>
+	</footer>
+ </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>
+
